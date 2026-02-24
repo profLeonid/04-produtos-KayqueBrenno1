@@ -24,19 +24,19 @@ function adicionarProduto() {
         div.className = 'flex justify-center gap-2 w-full'
 
         spanCodigo.textContent = codigo.value
-        spanCodigo.className = 'bg-purple-200 px-8 py-2 text-center'
+        spanCodigo.className = 'bg-purple-300 px-8 py-2 text-center border border-black rounded'
 
         spanProduto.textContent = produto.value
-        spanProduto.className = 'bg-purple-200 px-8 py-2 text-center'
+        spanProduto.className = 'bg-purple-300 px-8 py-2 text-center border border-black rounded'
 
         spanQuantidade.textContent = quantidade.value
-        spanQuantidade.className = 'bg-purple-200 px-8 py-2 text-center'
+        spanQuantidade.className = 'bg-purple-300 px-8 py-2 text-center border border-black rounded'
 
         div.appendChild(spanCodigo)
         div.appendChild(spanProduto)
         div.appendChild(spanQuantidade)
         lista.appendChild(div)
-        
+
 
         codigo.value = ''
         produto.value = ''
